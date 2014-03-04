@@ -1,0 +1,33 @@
+/* custom.css */
+
+.custom-progress {
+  height: 50px;
+}
+
+li.outer-pad {
+  height: 30%;
+}
+
+.inner-pad {
+  height: 95%;
+  width: 95%;
+  margin: 2%;
+  opacity: .50;
+  border-radius: 5px;
+}
+
+.active {
+  opacity: 1;
+}
+
+div.red {
+  background-color: red;
+}
+
+div.green {
+  background-color: green;
+}
+
+div.blue {
+  background-color: blue;
+}

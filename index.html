@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Coder42MN Node OSC Server Front-end</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <script src="/js/modernizr.js"></script>
+</head>
+<body>
+
+  <div class="row">
+    <div class="small-12 large-12 columns">
+    <ul class="small-block-grid-3">
+      <li id="Bass1" class="outer-pad"><div class="inner-pad red"></div></li>
+      <li id="Bass2" class="outer-pad"><div class="inner-pad red"></div></li>
+      <li id="Bass3" class="outer-pad"><div class="inner-pad red"></div></li>
+      <li id="Snare1" class="outer-pad"><div class="inner-pad green"></div></li>
+      <li id="Snare2" class="outer-pad"><div class="inner-pad green"></div></li>
+      <li id="Tom1" class="outer-pad"><div class="inner-pad green"></div></li>
+      <li id="Cymbal1" class="outer-pad"><div class="inner-pad blue"></div></li>
+      <li id="Cymbal2" class="outer-pad"><div class="inner-pad blue"></div></li>
+      <li id="Retro1" class="outer-pad"><div class="inner-pad blue"></div></li>
+    </ul>
+  </div>
+</div>
+  <div class="row">
+    <div class="small-12 large-12 columns">
+      <div class="radius progress success large-12 custom-progress">
+        <span class="meter" id="volume" style="width: 100%"></span>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Start loading the Javascript -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/soundmanager2.js"></script>
+  <script src="/js/user_socket.io.js"></script>
+  <script src="/js/user_soundmanager2.js"></script>
+  <script src="/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <!-- End Javascript loading -->
+</body>
+</html>

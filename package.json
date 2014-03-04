@@ -1,0 +1,12 @@
+{
+  "name": "coder42-osc",
+  "version": "0.0.0",
+  "description": "Coder42 Node OSC Server",
+  "main": "app.js",
+  "author": "Coder42MN",
+  "dependencies": {
+    "express": "3.x",
+    "node-osc": "0.2.1",
+    "socket.io": "0.9.16"
+  }
+}
